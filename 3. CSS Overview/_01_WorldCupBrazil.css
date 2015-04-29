@@ -1,0 +1,156 @@
+body {
+    background: #009744;
+    font-family: tahoma, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    width: 855px;
+    height: 290px;
+}
+
+#container {
+    width: 855px;
+    height: 290px;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+th {
+    background: #F8CA14;
+    border: 2px solid #000000;
+}
+
+#table td, #table tr {
+    border: 2px solid #000000;
+}
+
+tr:nth-child(even) {
+    background-color: #FFFFFF;
+}
+
+tr:nth-child(odd) {
+    background-color: #CBCBCB;
+}
+
+td:nth-child(1) {
+    text-align: right;
+    padding-right: 5px;
+}
+
+td:nth-child(2) {
+    text-align: center;
+}
+
+td:nth-child(3) {
+    padding-left: 5px;
+}
+
+td:nth-child(4) {
+    text-align: center;
+}
+
+td:nth-child(5) {
+    text-align: right;
+}
+
+td:nth-child(6) {
+    text-align: center;
+}
+
+th:nth-child(1) {
+    text-align: right;
+}
+
+th:nth-child(3) {
+    text-align: left;
+}
+
+#disabledSelect {
+    background-color: #dedede;
+    color: #ff0000;
+}
+
+#enabledSelect {
+    color: #008600;
+    background-color: #ffffff;
+}
+
+select {
+    width: 35px;
+    height: 35px;
+}
+
+#brasil:after {
+    content: url(http://img.fifa.com/images/flags/1/bra.png);
+    padding-left: 5px;
+}
+
+#mexico:before {
+    content: url(http://img.fifa.com/images/flags/1/mex.png);
+    padding-right: 5px;
+}
+
+#spain:after {
+    content: url(http://img.fifa.com/images/flags/1/esp.png);
+    padding-left: 5px;
+}
+
+#netherlands:before {
+    content: url(http://img.fifa.com/images/flags/1/ned.png);
+    padding-right: 5px;
+}
+
+#italy:after {
+    content: url(http://img.fifa.com/images/flags/1/ita.png);
+    padding-left: 5px;
+}
+
+#england:before {
+    content: url(http://img.fifa.com/images/flags/1/eng.png);
+    padding-right: 5px;
+}
+
+#argentina:after {
+    content: url(http://img.fifa.com/images/flags/1/arg.png);
+    padding-left: 5px;
+}
+
+#bosnia:before {
+    content: url(http://img.fifa.com/images/flags/1/bih.png);
+    padding-right: 5px;
+}
+
+#germany:after {
+    content: url(http://img.fifa.com/images/flags/1/ger.png);
+    padding-left: 5px;
+}
+
+#portugal:before {
+    content: url(http://img.fifa.com/images/flags/1/por.png);
+    padding-right: 5px;
+}
+
+button:disabled {
+    width: 35px;
+    height: 35px;
+    border-radius: 35px;
+    background-color: red;
+    color: white;
+    font-size: 8px;
+}
+
+button:enabled {
+    width: 35px;
+    height: 35px;
+    border-radius: 35px;
+    background-color: green;
+    color: white;
+    font-size: 8px;
+}
+
+.button {
+    text-align: center;
+}

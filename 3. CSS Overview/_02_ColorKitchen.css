@@ -1,0 +1,164 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url("images/colorful_dots_on_black.jpg");
+    font-family: tahoma, sans-serif;
+    font-size: 14px;
+}
+
+body > header {
+    background: linear-gradient(to right, #ff0000 33.33%, #008000 33.34%, #008000 66.67%, #0000FF 66.68%);
+    text-align: center;
+    font-size: 3.5em;
+}
+
+nav {
+    background-color: rgba(255, 255, 255, 0.85);
+    width: 22%;
+    border-radius: 15px;
+    margin-left: 10px;
+    margin-top: 20px;
+    float: left;
+}
+
+ul {
+    padding-left: 40px;
+    padding-top: 5px;
+    border-bottom-width: 10px;
+    padding-bottom: 10px;
+}
+
+a:link {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:visited {
+    text-decoration: none;
+    color: grey;
+}
+
+li {
+margin-right: 25px;
+}
+
+li:first-child:hover {
+    background-color: #ff0000;
+    border-radius: 8px;
+}
+
+li:nth-child(2):hover {
+    background-color: #ffa500;
+    border-radius: 8px;
+}
+
+li:nth-child(3):hover {
+    background-color: #ffff00;
+    border-radius: 8px;
+}
+
+li:nth-child(4):hover {
+    background-color: #008000;
+    border-radius: 8px;
+}
+
+li:nth-child(5):hover {
+    background-color: #0000ff;
+    border-radius: 8px;
+}
+
+li:last-child:hover {
+    background-color: #800080;
+    border-radius: 8px;
+}
+
+nav > header {
+    padding-top: 15px;
+    padding-left: 25px;
+    text-decoration: underline;
+}
+
+li {
+    padding: 5px;
+}
+
+section > article {
+    background-color: rgba(255, 255, 255, 0.85);
+    width: 70%;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-right: 20px;
+    float: right;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+#webColors {
+    background-color: #FF0000;
+    font-size: 2em;
+    color: white;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 5px;
+}
+
+#webSafeColors {
+    background-color: #FFA500;
+    font-size: 2em;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 5px;
+}
+
+#RGB {
+    background-color: #FFFF00;
+    font-size: 2em;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 5px;
+}
+
+#RGBA {
+    background-color: #008000;
+    font-size: 2em;
+    color: white;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 5px;
+}
+
+#HSLHSV {
+    background-color: #0000FF;
+    font-size: 2em;
+    color: white;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 5px;
+}
+
+#lorem {
+    background-color: #800080;
+    font-size: 2em;
+    color: white;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 5px;
+}
+
+section article div:first-letter {
+    font-size: 4em;
+}
+
+section article div:first-line {
+    font-style: italic;
+}
+
+footer {
+    font-style: italic;
+    color: #808080;
+    text-decoration: underline !important;
+    padding-top: 5px !important;
+}
