@@ -1,0 +1,28 @@
+body {
+    background-color: pink;
+}
+
+h1 {
+    text-align: center;
+}
+
+meter {
+    width: 200px;
+    height: 25px;
+}
+
+#user {
+    float: left;
+}
+
+#audio {
+    float: left;
+}
+
+#video {
+    float: left;
+}
+
+section {
+    padding-left: 20px;
+}
