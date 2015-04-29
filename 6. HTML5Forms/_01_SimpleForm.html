@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Simple Form</title>
+    <link rel="stylesheet" href="_01_SimpleForm.css"/>
+</head>
+<body>
+<h1>Enter the system</h1>
+<p>It is necessary to login in Your account in order to sign in for a course.</p>
+<fieldset id="register">
+    <legend>ARE YOU NEW? <span id="reg">REGISTER</span></legend>
+    <input type="text" name="userName" value="User name" required="required"><br>
+    <input type="email" name="email" value="Email" required="required"><br>
+    <input type="text" name="pass" value="Password" required="required"><br>
+    <input type="text" name="confPass" value="Confirm Password" required="required"><br>
+    <input type="submit" value="Register">
+</fieldset>
+<fieldset id="login">
+    <legent>ALREDY A STUDENT? LOGIN</legent><br>
+    <input type="text" name="regUserName" value="User name" required="required"><br>
+    <input type="text" name="regPass" value="Password" required="required"><br>
+    <input type="checkbox" name="remember" id="remember">
+    <span id="rimember">Remember me?</span>
+    <input type="submit" value="Login"><br>
+    <span>Forgot password?</span>
+</fieldset>
+</body>
+</html>

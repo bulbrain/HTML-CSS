@@ -1,0 +1,70 @@
+body {
+    background-color: #EEE;
+    font-family: tahoma, sans-serif;
+}
+
+h1 {
+    color: #234465;
+}
+
+p {
+    color: gray;
+}
+
+#reg {
+    color: #234465;
+}
+
+#register {
+    float: left;
+    width: 300px;
+    padding: 15px;
+    height: 200px;
+    border: 0;
+}
+
+#login {
+    float: left;
+    width: 300px;
+    height: 300px;
+    padding: 15px;
+    background-color: #234465;
+    color: white;
+    border: 0;
+}
+
+input {
+    height: 40px;
+    width: 286px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+}
+
+#register span, #login p {
+    font-weight: bold;
+    margin-top: -5px;
+}
+
+#register input[type="submit"] {
+    float: right;
+    width: 130px;
+    color: #365472;
+    background-color: #eeeeee;
+    border-color: #365472;
+    border-style: solid;
+}
+
+#login input[type="submit"] {
+    float: right;
+    width: 130px;
+    height: 40px;
+    color: white;
+    border-color: #ffa700;
+    background-color: #234465;
+    border-style: solid;
+}
+
+#remember {
+    width: 20px;
+    height: 20px;
+}
