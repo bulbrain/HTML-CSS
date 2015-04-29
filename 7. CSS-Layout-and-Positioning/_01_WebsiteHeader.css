@@ -1,0 +1,108 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: tahoma, sans-serif;
+}
+
+li {
+    display: inline-block;
+    padding-left: 30px;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+form button {
+    background: transparent;
+    background-image: url("https://softuni.bg/Content/design/magn-glass-icon17.png");
+    width: 32px;
+    height: 30px;
+    background-position: 7px;
+    background-repeat: no-repeat;
+    border: 0;
+    border-left: 1px solid #d5d5d5;
+}
+
+#intext {
+    border: 0;
+    width: 220px;
+    height: 13px;
+}
+
+form {
+    width: 260px;
+    height: 32px;
+    background-color: #fff;
+    border: 1px solid #d5d5d5;
+    border-radius: 5px;
+    float: right;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+#container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1200px;
+    height: 100px;
+    background-color: #234465;
+}
+
+#logo {
+    float: left;
+    margin-top: 10px;
+}
+
+#menu {
+    float: right;
+    width: 75%;
+}
+
+#search {
+    width: 100%;
+    float: right;
+}
+
+#lowerMenu {
+    float: right;
+    width: 960px;
+}
+
+#profile {
+    position: fixed;
+    right: 360px;
+    top: 5px;
+    color: #fff;
+}
+
+.caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 4px solid;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+    color: #ffffff;
+}
+
+#dropdown {
+    display: inline-block;
+    position: absolute;
+    width: 120px;
+    background-color: #234465;
+    visibility: hidden;
+}
+
+a:hover {
+    background-color: orangered;
+}
+
+a:hover + #dropdown {
+    visibility: visible !important;
+}

@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    height: 1200px;
+}
+
+header {
+    background-image: url("img/headerBackground.jpg");
+    background-repeat: no-repeat;
+    width: 970px;
+    height: 328px;
+    margin-left: 167px;
+    margin-right: 167px;
+}
+
+h1 {
+    float: right;
+    color: white;
+    margin-right: 90px;
+    margin-top: 200px;
+}
+
+#menu {
+    width: 900px;
+    background-color: #E2E2E2;
+    float: left;
+    margin-top: 33px;
+}
+
+li {
+    display: inline-block;
+    border-right: 1px solid white;
+    padding: 20px 30px;
+}
+
+li a {
+    color: #626161;
+    text-decoration: none;
+}
+
+li:hover {
+    background-color: #626161;
+}
+
+li a:hover {
+    color: white;
+}
+
+h2 {
+    color: #84BE19;
+}
+
+#content {
+    background-color: #FFF;
+    width: 900px;
+    height: 930px;
+    margin-left: 167px;
+    margin-right: 167px;
+    padding-top: 20px;
+}
+
+#home {
+    background-color: #626161;
+}
+
+#home a {
+    color: white;
+}
+
+#sec1 {
+    width: 58%;
+    padding: 20px;
+    margin-left: 40px;
+    margin-top: 20px;
+    border: 1px solid #626161;
+    border-radius: 10px;
+}
+
+#sec2 {
+    width: 58%;
+    padding: 20px;
+    margin-left: 40px;
+    margin-top: 20px;
+    float: left;
+    border: 1px solid #626161;
+    border-radius: 10px;
+}
+
+#produ {
+    margin-top: 20px;
+}
+
+#product {
+    margin-left: 20px;
+    float: right;
+    width: 66%;
+}
+
+#product p {
+    padding-top: 10px;
+}
+
+#news {
+    float: right;
+    width: 21%;
+    margin-top: 40px;
+    margin-right: 20px;
+    padding: 20px;
+    background-color: #EEE;
+    border: 1px solid #626161;
+    border-radius: 7px;
+}
+
+#messeges {
+    float: right;
+    width: 21%;
+    margin-top: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    border: 1px solid #626161;
+    border-radius: 7px;
+}
+
+#news h2 {
+    margin-bottom: 10px;
+}
+
+#new {
+    margin-bottom: 10px;
+}
+
+#new a {
+    color: green;
+}
+
+#messeges h2 {
+    margin-bottom: 20px;
+}
+
+#messeges a {
+    color: green;
+}
+
+footer {
+    background-color: #91C92A;
+    margin-left: 167px;
+    margin-right: 254px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    width: 900px;
+}
+
+footer p {
+    padding-left: 200px;
+}
+
+footer p a {
+    text-decoration: none;
+    color: black;
+}

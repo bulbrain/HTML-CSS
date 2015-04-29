@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #EEEEEE;
+    font-family: tahoma, sans-serif;
+    color: #5e5e5e;
+}
+
+header {
+    width: 1320px;
+    height: 72px;
+    background-image: url("https://softuni.bg/Content/design/3.jpg");
+    background-repeat: no-repeat;
+}
+
+header p {
+    float: right;
+    margin-right: 115px;
+    margin-top: 30px;
+    background-color: #FF9C00;
+    padding: 6px 12px;
+}
+
+header p a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#container {
+    margin: 0px 75px;
+}
+
+h2 {
+    padding-top: 40px;
+}
+
+h2 a {
+    text-decoration: none;
+    color: #124456;
+}
+
+#sec1 {
+    float: left;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    width: 27%;
+    height: 370px;
+    background-color: #FFF;
+}
+
+#sec2 {
+    float: left;
+    padding: 20px;
+    margin: 20px;
+    width: 27%;
+    height: 370px;
+    background-color: #FFF;
+}
+
+#sec3 {
+    float: left;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    width: 27%;
+    height: 370px;
+    background-color: #FFF;
+}
+
+h4 {
+    color: #124456;
+    height: 36px;
+}
+
+img {
+    padding: 20px;
+    width: 280px;
+}
+
+#date {
+    text-align: right;
+    color: black;
+}
+
+#head {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+}
+
+#content {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+}
+
+#content p {
+    height: 36px;
+}
+
+#tags p {
+    padding-top: 20px;
+}
+
+footer {
+    float: left;
+    background-color: #4CA0DB;
+}
+
+li a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+footer li {
+    display: inline-block;
+    background-color: #4CA0DB;
+    padding: 6px 12px;
+    border: 1px solid #357ebd;;
+    margin: -3px;
+}
+
+footer li:hover {
+    background-color: #FF9C00;
+}
+
+#firstLi {
+    background-color: #FF9C00;
+    border: 0;
+    padding: 7px 13px;
+}
