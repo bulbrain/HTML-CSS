@@ -1,0 +1,82 @@
+body {
+    font-family: Tahoma, sans-serif;
+    font-size: 12pt;
+}
+
+* {
+    border: 0;
+    margin: 0;
+}
+
+#container {
+    border-top: 5px dotted #FFFF00;
+    border-right: 5px solid #008600;
+    border-bottom: 5px double #0000FF;
+    border-left: 5px dashed #FF0000;
+    width: 500px;
+    height: 120px;
+}
+
+#title {
+    text-align: center;
+    font-size: 2em;
+    text-shadow: 10px 10px 10px grey;
+}
+
+#inside {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 70px;
+    margin-left: 70px;
+    border-radius: 35px;
+    border: 2px solid #FF1A1A;
+    box-shadow: 0 0 0 2px #FBFD00, 0 0 0 4px #006F21, 0 0 0 6px #0028AE;
+    height: 40px;
+}
+
+span {
+    background-color: #DA971E;
+    border: 2px solid #FFAA00;
+}
+
+#smallCircle {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    background-color: rgba(128, 128, 128, 0.6);
+    left: 375px;
+    top: 70px;
+    border: 3px dashed white;
+    box-shadow: 0 0 0 3px rgba(128, 128, 128, 0.6);
+}
+
+#midCircle {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: rgba(128, 128, 128, 0.6);
+    left: 400px;
+    top: 50px;
+    border: 3px dashed white;
+    box-shadow: 0 0 0 3px rgba(128, 128, 128, 0.6);
+}
+
+#largeCircle {
+    border-radius: 50px;
+    width: 80px;
+    height: 40px;
+    position: absolute;
+    background-color: rgba(128, 128, 128, 0.6);
+    left: 470px;
+    top: 20px;
+    border: 3px dashed white;
+    box-shadow: 0 0 0 3px rgba(128, 128, 128, 0.6);
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1em;
+    padding-top: 7px;
+}
