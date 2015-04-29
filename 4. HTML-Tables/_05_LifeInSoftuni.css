@@ -1,0 +1,17 @@
+body {
+    font-family: tahoma, sans-serif;
+    font-size: 16px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 5px;
+}
+
+th, td {
+    height: 80px;
+    width: 125px;
+}

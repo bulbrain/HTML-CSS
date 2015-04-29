@@ -1,0 +1,15 @@
+body {
+   font-family: tahoma, sans-serif;
+}
+
+th {
+    font-size: 3em;
+}
+
+td {
+    margin-top: 25px;
+    width: 255px;
+    height: 255px;
+    font-size: 20px;
+}
+
